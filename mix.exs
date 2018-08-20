@@ -34,7 +34,7 @@ defmodule CldrNumbers.Mixfile do
 
   defp deps do
     [
-      {:ex_cldr, "~> 1.5"},
+      {:ex_cldr, git: "https://github.com/pascalh1011/cldr.git", tag: "master"},
       {:ex_cldr_currencies, "~> 1.0"},
       {:decimal, "~> 1.4"},
       {:poison, "~> 2.1 or ~> 3.1", optional: true},
